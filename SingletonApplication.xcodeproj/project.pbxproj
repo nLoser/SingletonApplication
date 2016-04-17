@@ -15,6 +15,8 @@
 		A9FB2AC31CB4F97A0060AC89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FB2AC11CB4F97A0060AC89 /* LaunchScreen.storyboard */; };
 		A9FB2ACE1CB4F97A0060AC89 /* SingletonApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FB2ACD1CB4F97A0060AC89 /* SingletonApplicationTests.m */; };
 		A9FB2AD91CB4F97A0060AC89 /* SingletonApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FB2AD81CB4F97A0060AC89 /* SingletonApplicationUITests.m */; };
+		A9FB2AEB1CB505260060AC89 /* APUserinfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FB2AEA1CB505260060AC89 /* APUserinfoManager.m */; };
+		A9FB2AEF1CB518560060AC89 /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FB2AEE1CB518560060AC89 /* FastCoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		A9FB2AD41CB4F97A0060AC89 /* SingletonApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FB2AD81CB4F97A0060AC89 /* SingletonApplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonApplicationUITests.m; sourceTree = "<group>"; };
 		A9FB2ADA1CB4F97A0060AC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FB2AE91CB505260060AC89 /* APUserinfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APUserinfoManager.h; sourceTree = "<group>"; };
+		A9FB2AEA1CB505260060AC89 /* APUserinfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APUserinfoManager.m; sourceTree = "<group>"; };
+		A9FB2AED1CB518560060AC89 /* FastCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastCoder.h; sourceTree = "<group>"; };
+		A9FB2AEE1CB518560060AC89 /* FastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastCoder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		A9FB2AA71CB4F97A0060AC89 = {
 			isa = PBXGroup;
 			children = (
+				A9FB2AE61CB5035E0060AC89 /* Classes */,
 				A9FB2AB21CB4F97A0060AC89 /* SingletonApplication */,
 				A9FB2ACC1CB4F97A0060AC89 /* SingletonApplicationTests */,
 				A9FB2AD71CB4F97A0060AC89 /* SingletonApplicationUITests */,
@@ -138,6 +145,41 @@
 				A9FB2ADA1CB4F97A0060AC89 /* Info.plist */,
 			);
 			path = SingletonApplicationUITests;
+			sourceTree = "<group>";
+		};
+		A9FB2AE61CB5035E0060AC89 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9FB2AEC1CB5184C0060AC89 /* Tools */,
+				A9FB2AE81CB5037F0060AC89 /* Singleton */,
+				A9FB2AE71CB503730060AC89 /* Models */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A9FB2AE71CB503730060AC89 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A9FB2AE81CB5037F0060AC89 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				A9FB2AE91CB505260060AC89 /* APUserinfoManager.h */,
+				A9FB2AEA1CB505260060AC89 /* APUserinfoManager.m */,
+			);
+			name = Singleton;
+			sourceTree = "<group>";
+		};
+		A9FB2AEC1CB5184C0060AC89 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A9FB2AED1CB518560060AC89 /* FastCoder.h */,
+				A9FB2AEE1CB518560060AC89 /* FastCoder.m */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +313,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9FB2ABB1CB4F97A0060AC89 /* ViewController.m in Sources */,
+				A9FB2AEB1CB505260060AC89 /* APUserinfoManager.m in Sources */,
 				A9FB2AB81CB4F97A0060AC89 /* AppDelegate.m in Sources */,
+				A9FB2AEF1CB518560060AC89 /* FastCoder.m in Sources */,
 				A9FB2AB51CB4F97A0060AC89 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

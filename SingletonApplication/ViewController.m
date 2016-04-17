@@ -5,7 +5,23 @@
 //  Created by LV on 16/4/6.
 //  Copyright © 2016年 Wieye. All rights reserved.
 //
-
+/*
+ 系统的单例：
+ 
+ [NSUserDefaults standardUserDefaults];
+ [NSNotificationCenter defaultCenter];
+ [NSFileManager defaultManager];
+ [UIApplication sharedApplication];
+ 
+ 所以我也要创建一个很酷酷的单例
+ 
+ 1.假设是应用中用户信息的管理器
+ 
+ APUserinfoManager
+ 
+ 
+ 
+ */
 #import "ViewController.h"
 
 @interface ViewController ()
